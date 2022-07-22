@@ -93,14 +93,28 @@ body{
   margin-left: 0;
   /* opacity: 0.6; */
 }
+#loc-input{
+  background-color: transparent;
+}
+#bang{
+  background-color: transparent;
+}
+#bang1{
+  background-color: transparent;
+}
+#bang>a{
+  font-size: 12px;
+  font-weight: 400;
+}
 #loc-img>img{
   width: 90%;
   border-radius: 50%;
+  background-color: transparent;
 }
 #loc-img:hover{
   opacity: 0.8;
   /* border: 1px solid transparent; */
- 
+  background-color: transparent;
 }
 #loc-input>input{
   border: 1px solid transparent;
@@ -118,6 +132,7 @@ body{
   border-radius: 5px;
   width: 20%;
   height: 30px;
+  padding-top: 2%;
   margin-left: 5%;
   align-items: center;
   text-align: center;
@@ -135,7 +150,6 @@ body{
   font-size: smaller;
   text-decoration: none;
 }
-
 #login-div{
   border-radius: 50%;
   margin-left: 5%;
@@ -163,8 +177,6 @@ body{
   padding: 12%;
   border: 1px solid transparent;
 }
-
-
 #cart-div{
   border-radius: 50%;
   margin-left: 5%;
@@ -241,8 +253,6 @@ cursor: pointer;
   margin: auto;
   /* border: 1px solid red; */
 }
-
-
 
 .img-carousel{
   width: 100%;
